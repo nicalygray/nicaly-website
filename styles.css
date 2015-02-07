@@ -1,0 +1,146 @@
+
+/*-----------------------------|
+|-------     Body       -------|
+|-----------------------------*/
+
+		body, html {
+			height: 100%;
+			width: 100%;
+			font-size: 1.25em;
+			background-color: #4ca9aa;
+		}
+
+		a {
+			color: #2a423c;
+		}
+
+		a:hover {
+			color: #dedba7;
+		}
+
+		.wrapper {
+			width: 100%;
+			height: 100%;
+		}
+
+		p {
+			font-family: 'Proxima Nova';
+			font-style: 'regular';
+			font-weight: '300';
+			color: #1e506a;
+			font-size: .7em;
+			line-height: 1em;
+		}
+
+		.curve {
+			width: 25%; 
+			min-width: 150px;
+			height: auto;
+			float: left; margin-right:2rem;
+			border-radius: 50%;
+			padding: 0 1% 1% 0;
+			-webkit-shape-outside:circle();
+			shape-outside:circle();
+			}
+
+/*-----------------------------|
+|-------     Body       -------|
+|-----------------------------*/
+		.logo {
+			width: 180px;
+			height: auto;
+			min-width: 180px;
+			min-height: auto;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			margin-top: -90px;
+			margin-left: -90px;
+			
+		}
+
+
+/*-----------------------------|
+|------   navigation      -----|
+|-----------------------------*/		
+
+		nav {
+			width: 50%;
+			position: absolute;
+			top: 15%;
+			left: 50%;
+			margin-left: -25%;
+			margin-right: auto;
+			text-align: center;
+			
+		}
+		nav ul {
+			list-style-type: none;
+
+		font-family: "hwt-republic-gothic-solid-n4","hwt-republic-gothic-solid",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		}
+
+		nav ul li{
+		font-family: "hwt-republic-gothic-solid-n4","hwt-republic-gothic-solid",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+			display: inline-block;
+			padding: 2%;
+		}
+
+		nav ul li a {
+			text-decoration: none;
+		}
+
+
+#content {
+	width: 60%;
+	height: auto;
+	overflow: auto;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	margin-top: -7%;
+	margin-left: -30%;
+			
+}
+
+iframe {
+	border: none;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	
+}
+
+@media screen and (min-width: 0px) and (max-width: 760px) {
+
+	nav {
+			width: 50%;
+			position: absolute;
+			top: 15%;
+			left: 50%;
+			margin-top: -20%;
+			margin-left: -29%;
+			margin-right: auto;
+			text-align: center;
+		}
+
+	nav ul li{
+		display: block;
+	}	
+
+
+#content {
+  	width: 90%;
+  	height: auto;
+	overflow: none;
+ 	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: 30%;
+	margin-left: -45%;
+}
+	
