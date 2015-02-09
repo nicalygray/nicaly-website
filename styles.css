@@ -10,6 +10,17 @@
 			background-color: #4ca9aa;
 		}
 
+		footer {
+			width: 100%;
+			height: auto;
+			background-color: #1d506b;
+			position: relative;
+			bottom: 0;
+			clear: both;
+		}
+
+	
+
 		a {
 			color: #2a423c;
 		}
@@ -65,27 +76,27 @@
 |-----------------------------*/		
 
 		nav {
-			width: 50%;
+			width: 70%;
 			position: absolute;
 			top: 15%;
 			left: 50%;
-			margin-left: -25%;
+			margin-left: -35%;
 			margin-right: auto;
 			text-align: center;
 			
 		}
 		nav ul {
-			list-style-type: none;
-
-		font-family: "hwt-republic-gothic-solid-n4","hwt-republic-gothic-solid",sans-serif;
+		list-style-type: none;
+		font-family: "league-gothic",sans-serif;
 		font-style: normal;
 		font-weight: 400;
 		}
 
 		nav ul li{
-		font-family: "hwt-republic-gothic-solid-n4","hwt-republic-gothic-solid",sans-serif;
+		font-family: "league-gothic",sans-serif;
 		font-style: normal;
 		font-weight: 400;
+		font-size: 1.5em;
 			display: inline-block;
 			padding: 2%;
 		}
@@ -107,13 +118,36 @@
 			
 }
 
-iframe {
-	border: none;
-	width: 100%;
-	height: 100%;
+.construction {
+	
+	text-align: center;
 	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden; 
+
+}
+
+.construction ul {
+	display: inline-block;
+	width: 100%;
+	margin-left: -3.5%;
+
+}
+
+.construction ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding: 0 1% 0 0;
+
 	
 }
+
+.construction ul li a {
+	text-decoration: none;
+}
+/*-----------------------------|
+|------   media query     -----|
+|-----------------------------*/	
 
 @media screen and (min-width: 0px) and (max-width: 760px) {
 
@@ -122,25 +156,30 @@ iframe {
 			position: absolute;
 			top: 15%;
 			left: 50%;
-			margin-top: -20%;
+			margin-top: -30%;
 			margin-left: -29%;
 			margin-right: auto;
 			text-align: center;
+
+
 		}
 
 	nav ul li{
 		display: block;
+		font-size: 1.1em;
+
 	}	
 
 
-#content {
-  	width: 90%;
-  	height: auto;
-	overflow: none;
- 	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: 30%;
-	margin-left: -45%;
+	#content {
+	  	width: 90%;
+	  	height: auto;
+		overflow: none;
+	 	position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-top: 30%;
+		margin-left: -45%;
+	}
 }
 	
